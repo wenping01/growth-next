@@ -12,7 +12,7 @@ export default function() {
 				<div className="flex gap-5 md:flex-row flex-col">
 					<div className="mt-6 flex-1 flex flex-col justify-end">
 						<P className="mb-7">Organise, collaborate, and trach progress seamlessly with our one-stop-shop startup growth tool.</P>
-						<div className="flex mb-16">
+						<div className="md:flex mb-16">
 							<Button primary href="/">Get stated</Button>
 							<Button href="/">
 								<Image src="/demo.svg" alt="Demo book" className="mr-2" width={18} height={23} />
