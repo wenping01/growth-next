@@ -14,9 +14,9 @@ export default function () {
           A powerfull solution to grow your startup. Fast!
         </h1>
       </div>
-      <div className="flex gap-5 md:flex-row flex-col mt-4">
+      <div className="flex gap-5 lg:flex-row flex-col mt-4">
         <div className="flex-1 flex flex-col justify-end">
-          <p className="font-normal text-xl mb-7 text-center md:text-left">
+          <p className="font-normal text-xl mb-7 text-center lg:text-left">
             Organise, collaborate, and trach progress seamlessly with our one-stop-shop startup growth tool.
           </p>
           <div className="md:flex mb-16">

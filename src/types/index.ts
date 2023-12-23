@@ -26,9 +26,10 @@ export interface NavBarProps {
 export interface CardToastProps {
   title: String;
   description: String;
-  times: String;
+  times?: String;
   btnText: String;
   href: string;
+  styles?: String;
 }
 
 export interface InputProps {
