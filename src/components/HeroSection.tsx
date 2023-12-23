@@ -9,14 +9,14 @@ export default function () {
 
   return (
     <div className="container mx-auto px-4 pt-16">
-      <div className="mt-8 max-w-[830px]">
-        <h1 className="text-[64px] leading-none font-medium tracking-tight">
+      <div className="mt-8 max-w-[1000px]">
+        <h1 className="text-[64px] leading-none font-medium tracking-tight text-center md:text-left">
           A powerfull solution to grow your startup. Fast!
         </h1>
       </div>
-      <div className="flex gap-5 md:flex-row flex-col">
-        <div className="mt-6 flex-1 flex flex-col justify-end">
-          <p className="font-normal text-xl mb-7">
+      <div className="flex gap-5 md:flex-row flex-col mt-4">
+        <div className="flex-1 flex flex-col justify-end">
+          <p className="font-normal text-xl mb-7 text-center md:text-left">
             Organise, collaborate, and trach progress seamlessly with our one-stop-shop startup growth tool.
           </p>
           <div className="md:flex mb-16">
