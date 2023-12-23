@@ -30,3 +30,9 @@ export interface CardToastProps {
   btnText: String;
   href: string;
 }
+
+export interface InputProps {
+  title?: String;
+  placeholder?: String;
+  type?: 'text' | 'textarea';
+}
