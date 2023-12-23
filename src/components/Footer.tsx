@@ -28,17 +28,19 @@ export default function () {
   ];
 
   return (
-    <section className="container bg-primary mx-auto mt-5 pt-20 px-16 pb-10 text-white">
-      <Logo />
+    <section className="container bg-primary mx-auto mt-5 pt-20 px-16 pb-10">
+      <div className="text-white">
+        <Logo />
+      </div>
       <div className="flex flex-col gap-20 md:gap-32 my-8 md:flex-row ">
         <div className="bg-[#F4F4F6] rounded-xl p-6 md:w-[405px]">
           <h3 className="text-[#35333C] leading-9 font-medium text-xl">Subscribe to newsletter</h3>
-          <p className="text-primary my-5">
+          <p className="text-primary my-4">
             Subscribe now to receive tips on how to take your business to the next level.
           </p>
           <form action="" className="flex gap-4">
             <Input placeholder={`Enter your email`} />
-            <button type="submit" className="py-2.5 px-5 bg-[#4891FF] rounded-lg">
+            <button type="submit" className="py-2.5 px-5 bg-[#4891FF] rounded-lg text-white">
               Subscribe
             </button>
           </form>
